@@ -51,5 +51,9 @@ public class Queue {
             head = head.getNextNode();
         }
         return head.getValue();
-    };
+    }
+
+    public boolean hasElements(){
+        return head == null;
+    }
 }
